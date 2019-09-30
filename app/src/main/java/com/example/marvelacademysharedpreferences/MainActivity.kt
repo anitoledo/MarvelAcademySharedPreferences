@@ -9,13 +9,5 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        //Get your SharedPreferences Instance
-
-
-        //Get your isFirstTimeLaunched variable
-
-
-        //IF Logic
-
     }
 }
