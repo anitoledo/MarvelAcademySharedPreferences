@@ -11,10 +11,6 @@ class TutorialActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_tutorial)
 
-        goToDashboard.setOnClickListener {
-            goToDashboardActivity()
-        }
-
         // Get your SharedPreferences Instance
 
 
@@ -22,6 +18,10 @@ class TutorialActivity : AppCompatActivity() {
         val alreadyLaunched = false
 
         if(alreadyLaunched){
+            goToDashboardActivity()
+        }
+
+        goToDashboard.setOnClickListener {
             // Get sharedPreferences editor
 
 
